@@ -7,12 +7,7 @@ module mux_y(
 
   always @(*)begin
 
-    if(select == 0)
-      	out = Ard;
-    else if (select == 1)
-    	out = jump;
-    else
-      out = 0;
+    //keep it simple, how did you come up with smth like that?
 
   end
 
