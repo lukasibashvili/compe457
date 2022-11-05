@@ -8,14 +8,7 @@ module mux_src1(
 
   always @(*)begin
 
-    if(select == 0)
-      	out = Rn;
-    else if (select == 1)
-    	out = Rs;
-    else if (select == 2)
-        out = PC_out;
-    else
-      out = 0;
+    //rewrite as case statement
 
   end
 
